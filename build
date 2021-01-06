@@ -1,0 +1,13 @@
+#!/bin/sh
+
+gcc -o brain brain.c brain.h lcd-utils.c -Wall -Wextra -g
+
+#build_o () {
+#  gcc -w -c -o $1.o $1.c -Wall -Wextra
+#}
+
+#build_o brain
+#build_o lcd-utils
+
+#gcc -o brain brain.o lcd-utils.o lcdBinary.o -Wall -Wextra
+
